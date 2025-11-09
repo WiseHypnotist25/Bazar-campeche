@@ -1,0 +1,240 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "storeId": "store_001",
+      "storeName": "TechStore México",
+      "name": "iPhone 15 Pro Max",
+      "description": "iPhone 15 Pro Max 256GB, pantalla Super Retina XDR de 6.7 pulgadas, chip A17 Pro, cámara de 48MP. Incluye cargador y audífonos.",
+      "price": 28999.00,
+      "discountPrice": null,
+      "category": "Smartphones",
+      "imageUrls": [
+        "https://i.ibb.co/9ZKqNFm/iphone15-1.jpg",
+        "https://i.ibb.co/LrC8Yx4/iphone15-2.jpg",
+        "https://i.ibb.co/HxWv2tN/iphone15-3.jpg"
+      ],
+      "stock": 15,
+      "rating": 4.9,
+      "totalRatings": 87,
+      "isAvailable": true,
+      "tags": ["smartphone", "apple", "iphone", "5g"],
+      "createdAt": 1704067200000
+    },
+    {
+      "id": "prod_002",
+      "storeId": "store_001",
+      "storeName": "TechStore México",
+      "name": "MacBook Air M2",
+      "description": "MacBook Air con chip M2, pantalla Liquid Retina de 13.6 pulgadas, 8GB RAM, 256GB SSD. Potencia y portabilidad.",
+      "price": 26999.00,
+      "discountPrice": 24999.00,
+      "category": "Laptops",
+      "imageUrls": [
+        "https://i.ibb.co/XYz9w8F/macbook-1.jpg",
+        "https://i.ibb.co/dK8vR2m/macbook-2.jpg"
+      ],
+      "stock": 8,
+      "rating": 4.8,
+      "totalRatings": 62,
+      "isAvailable": true,
+      "tags": ["laptop", "apple", "macbook", "m2"],
+      "createdAt": 1704070800000
+    },
+    {
+      "id": "prod_003",
+      "storeId": "store_001",
+      "storeName": "TechStore México",
+      "name": "AirPods Pro 2da Gen",
+      "description": "AirPods Pro con cancelación activa de ruido, modo transparencia, audio espacial personalizado. Hasta 6 horas de batería.",
+      "price": 5499.00,
+      "discountPrice": null,
+      "category": "Audio",
+      "imageUrls": [
+        "https://i.ibb.co/9T6qKpL/airpods-1.jpg"
+      ],
+      "stock": 25,
+      "rating": 4.7,
+      "totalRatings": 143,
+      "isAvailable": true,
+      "tags": ["audífonos", "airpods", "apple", "bluetooth"],
+      "createdAt": 1704074400000
+    },
+    {
+      "id": "prod_004",
+      "storeId": "store_002",
+      "storeName": "Fashion Boutique",
+      "name": "Chamarra de Mezclilla Premium",
+      "description": "Chamarra de mezclilla 100% algodón, corte moderno, disponible en azul índigo. Perfecta para cualquier ocasión.",
+      "price": 899.00,
+      "discountPrice": 699.00,
+      "category": "Ropa Hombre",
+      "imageUrls": [
+        "https://i.ibb.co/P1M5tLq/jacket-1.jpg",
+        "https://i.ibb.co/Z2vW8qG/jacket-2.jpg"
+      ],
+      "stock": 30,
+      "rating": 4.5,
+      "totalRatings": 78,
+      "isAvailable": true,
+      "tags": ["ropa", "chamarra", "mezclilla", "hombre"],
+      "createdAt": 1704153600000
+    },
+    {
+      "id": "prod_005",
+      "storeId": "store_002",
+      "storeName": "Fashion Boutique",
+      "name": "Vestido Floral de Verano",
+      "description": "Vestido ligero con estampado floral, ideal para el verano. Tela fresca y cómoda. Tallas S-XL.",
+      "price": 599.00,
+      "discountPrice": null,
+      "category": "Ropa Mujer",
+      "imageUrls": [
+        "https://i.ibb.co/WcPr3yM/dress-1.jpg"
+      ],
+      "stock": 20,
+      "rating": 4.6,
+      "totalRatings": 92,
+      "isAvailable": true,
+      "tags": ["ropa", "vestido", "mujer", "verano"],
+      "createdAt": 1704157200000
+    },
+    {
+      "id": "prod_006",
+      "storeId": "store_003",
+      "storeName": "Supermercado del Valle",
+      "name": "Leche Entera Alpura 1L",
+      "description": "Leche entera pasteurizada de alta calidad. Rica en calcio y vitaminas. Ideal para toda la familia.",
+      "price": 28.50,
+      "discountPrice": null,
+      "category": "Lácteos",
+      "imageUrls": [
+        "https://i.ibb.co/9Gm8HLp/milk-1.jpg"
+      ],
+      "stock": 100,
+      "rating": 4.4,
+      "totalRatings": 234,
+      "isAvailable": true,
+      "tags": ["leche", "lácteos", "alpura"],
+      "createdAt": 1704240000000
+    },
+    {
+      "id": "prod_007",
+      "storeId": "store_003",
+      "storeName": "Supermercado del Valle",
+      "name": "Pan de Caja Integral Bimbo",
+      "description": "Pan de caja integral, rico en fibra. 680g. Perfecto para sandwiches y desayunos saludables.",
+      "price": 45.00,
+      "discountPrice": 39.00,
+      "category": "Panadería",
+      "imageUrls": [
+        "https://i.ibb.co/KX2m4qZ/bread-1.jpg"
+      ],
+      "stock": 50,
+      "rating": 4.3,
+      "totalRatings": 167,
+      "isAvailable": true,
+      "tags": ["pan", "integral", "bimbo"],
+      "createdAt": 1704243600000
+    },
+    {
+      "id": "prod_008",
+      "storeId": "store_004",
+      "storeName": "Librería Universal",
+      "name": "Cien Años de Soledad - Gabriel García Márquez",
+      "description": "Obra maestra de la literatura latinoamericana. Edición especial con portada dura. 496 páginas.",
+      "price": 349.00,
+      "discountPrice": null,
+      "category": "Literatura",
+      "imageUrls": [
+        "https://i.ibb.co/5B9xKzr/book-1.jpg"
+      ],
+      "stock": 35,
+      "rating": 4.9,
+      "totalRatings": 421,
+      "isAvailable": true,
+      "tags": ["libro", "literatura", "garcía márquez"],
+      "createdAt": 1704326400000
+    },
+    {
+      "id": "prod_009",
+      "storeId": "store_004",
+      "storeName": "Librería Universal",
+      "name": "Set de Colores Profesional 48 piezas",
+      "description": "Set completo de colores profesionales, incluye lápices, acuarelas y marcadores. Ideal para artistas.",
+      "price": 599.00,
+      "discountPrice": 499.00,
+      "category": "Papelería",
+      "imageUrls": [
+        "https://i.ibb.co/nLX8tVh/colors-1.jpg",
+        "https://i.ibb.co/fDRm2Qp/colors-2.jpg"
+      ],
+      "stock": 18,
+      "rating": 4.7,
+      "totalRatings": 89,
+      "isAvailable": true,
+      "tags": ["papelería", "colores", "arte"],
+      "createdAt": 1704330000000
+    },
+    {
+      "id": "prod_010",
+      "storeId": "store_005",
+      "storeName": "Deportes Extremos",
+      "name": "Balón de Fútbol Nike Premier",
+      "description": "Balón oficial de fútbol, tamaño 5. Tecnología Nike Aerowsculpt para vuelo preciso. Construcción duradera.",
+      "price": 899.00,
+      "discountPrice": null,
+      "category": "Fútbol",
+      "imageUrls": [
+        "https://i.ibb.co/Z8qMnYx/ball-1.jpg"
+      ],
+      "stock": 40,
+      "rating": 4.8,
+      "totalRatings": 156,
+      "isAvailable": true,
+      "tags": ["fútbol", "balón", "nike", "deportes"],
+      "createdAt": 1704412800000
+    },
+    {
+      "id": "prod_011",
+      "storeId": "store_005",
+      "storeName": "Deportes Extremos",
+      "name": "Bicicleta de Montaña 29\"",
+      "description": "Bicicleta MTB con cuadro de aluminio, 21 velocidades Shimano, frenos de disco. Incluye luces y botella.",
+      "price": 8999.00,
+      "discountPrice": 7499.00,
+      "category": "Ciclismo",
+      "imageUrls": [
+        "https://i.ibb.co/7J9fW2x/bike-1.jpg",
+        "https://i.ibb.co/YcPm8Dx/bike-2.jpg",
+        "https://i.ibb.co/Gn7L2Pq/bike-3.jpg"
+      ],
+      "stock": 12,
+      "rating": 4.9,
+      "totalRatings": 67,
+      "isAvailable": true,
+      "tags": ["bicicleta", "mtb", "ciclismo", "deportes"],
+      "createdAt": 1704416400000
+    },
+    {
+      "id": "prod_012",
+      "storeId": "store_001",
+      "storeName": "TechStore México",
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Galaxy S24 Ultra 256GB, pantalla Dynamic AMOLED 2X de 6.8\", Snapdragon 8 Gen 3, cámara 200MP con zoom 100x.",
+      "price": 27999.00,
+      "discountPrice": 25999.00,
+      "category": "Smartphones",
+      "imageUrls": [
+        "https://i.ibb.co/QmN2kYw/samsung-1.jpg",
+        "https://i.ibb.co/bW8xRqm/samsung-2.jpg"
+      ],
+      "stock": 20,
+      "rating": 4.8,
+      "totalRatings": 103,
+      "isAvailable": true,
+      "tags": ["smartphone", "samsung", "galaxy", "5g", "android"],
+      "createdAt": 1704078000000
+    }
+  ]
+}

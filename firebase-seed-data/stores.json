@@ -1,0 +1,69 @@
+{
+  "stores": [
+    {
+      "id": "store_001",
+      "ownerId": "wc3QKXZceAhA35xprmDkGMinS113",
+      "name": "TechStore México",
+      "description": "Los mejores productos de tecnología y electrónica. Envíos a todo México con garantía oficial.",
+      "category": "Electrónica",
+      "logoUrl": "https://i.ibb.co/ZLc8Yqr/tech-store-logo.jpg",
+      "bannerUrl": "https://i.ibb.co/9sWQx9p/tech-store-banner.jpg",
+      "rating": 4.8,
+      "totalRatings": 245,
+      "isActive": true,
+      "createdAt": 1704067200000
+    },
+    {
+      "id": "store_002",
+      "ownerId": "wc3QKXZceAhA35xprmDkGMinS113",
+      "name": "Fashion Boutique",
+      "description": "Ropa de moda para toda la familia. Las últimas tendencias al mejor precio.",
+      "category": "Ropa y Moda",
+      "logoUrl": "https://i.ibb.co/XF8KnYL/fashion-logo.jpg",
+      "bannerUrl": "https://i.ibb.co/3m4xJ7K/fashion-banner.jpg",
+      "rating": 4.5,
+      "totalRatings": 189,
+      "isActive": true,
+      "createdAt": 1704153600000
+    },
+    {
+      "id": "store_003",
+      "ownerId": "wc3QKXZceAhA35xprmDkGMinS113",
+      "name": "Supermercado del Valle",
+      "description": "Productos frescos y de despensa. Ofertas diarias en frutas, verduras y lácteos.",
+      "category": "Alimentos",
+      "logoUrl": "https://i.ibb.co/K2pnW8z/super-logo.jpg",
+      "bannerUrl": "https://i.ibb.co/yYt4rS5/super-banner.jpg",
+      "rating": 4.6,
+      "totalRatings": 312,
+      "isActive": true,
+      "createdAt": 1704240000000
+    },
+    {
+      "id": "store_004",
+      "ownerId": "wc3QKXZceAhA35xprmDkGMinS113",
+      "name": "Librería Universal",
+      "description": "Miles de libros, papelería y material escolar. Envíos express disponibles.",
+      "category": "Libros",
+      "logoUrl": "https://i.ibb.co/zR4W2Lq/book-logo.jpg",
+      "bannerUrl": "https://i.ibb.co/5YfMj6X/book-banner.jpg",
+      "rating": 4.7,
+      "totalRatings": 156,
+      "isActive": true,
+      "createdAt": 1704326400000
+    },
+    {
+      "id": "store_005",
+      "ownerId": "wc3QKXZceAhA35xprmDkGMinS113",
+      "name": "Deportes Extremos",
+      "description": "Todo para tus actividades deportivas. Equipamiento profesional y amateur.",
+      "category": "Deportes",
+      "logoUrl": "https://i.ibb.co/h2NM3Fp/sports-logo.jpg",
+      "bannerUrl": "https://i.ibb.co/kQp8vC3/sports-banner.jpg",
+      "rating": 4.9,
+      "totalRatings": 278,
+      "isActive": true,
+      "createdAt": 1704412800000
+    }
+  ]
+}

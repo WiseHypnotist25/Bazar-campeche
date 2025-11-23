@@ -18,7 +18,8 @@ data class AuthUiState(
     val phoneNumber: String = "",
     val isLoading: Boolean = false,
     val isLoggedIn: Boolean = false,
-    val errorMessage: String? = null
+    val errorMessage: String? = null,
+    val userRole: UserRole? = null
 )
 
 class AuthViewModel(
@@ -61,7 +62,8 @@ class AuthViewModel(
 
             when (val result = authRepository.signIn(_uiState.value.email, _uiState.value.password)) {
                 is Resource.Success -> {
-                    _uiState.update { it.copy(isLoading = false, isLoggedIn = true) }
+                    val userRole = result.data?.role
+                    _uiState.update { it.copy(isLoading = false, isLoggedIn = true, userRole = userRole) }
                 }
                 is Resource.Error -> {
                     _uiState.update { it.copy(isLoading = false, errorMessage = result.message) }
@@ -83,7 +85,8 @@ class AuthViewModel(
                 role = role
             )) {
                 is Resource.Success -> {
-                    _uiState.update { it.copy(isLoading = false, isLoggedIn = true) }
+                    val userRole = result.data?.role
+                    _uiState.update { it.copy(isLoading = false, isLoggedIn = true, userRole = userRole) }
                 }
                 is Resource.Error -> {
                     _uiState.update { it.copy(isLoading = false, errorMessage = result.message) }

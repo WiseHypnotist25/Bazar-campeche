@@ -97,6 +97,49 @@ fun HomeScreen(
                 .padding(paddingValues),
             contentPadding = PaddingValues(vertical = 16.dp)
         ) {
+            // Sección "Mis productos" solo para vendedores
+            if (uiState.canSell && uiState.myProducts.isNotEmpty()) {
+                item {
+                    Column(modifier = Modifier.padding(horizontal = 16.dp)) {
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "Mis Productos",
+                                style = MaterialTheme.typography.headlineSmall,
+                                fontWeight = FontWeight.Bold
+                            )
+                            TextButton(onClick = onNavigateToSeller) {
+                                Text("Ver todos")
+                            }
+                        }
+                        Spacer(modifier = Modifier.height(12.dp))
+                    }
+                }
+
+                item {
+                    LazyRow(
+                        contentPadding = PaddingValues(horizontal = 16.dp),
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        items(uiState.myProducts) { product ->
+                            ProductCard(
+                                product = product,
+                                onClick = { onNavigateToProduct(product.id) },
+                                modifier = Modifier.width(160.dp)
+                            )
+                        }
+                    }
+                }
+
+                item {
+                    Spacer(modifier = Modifier.height(24.dp))
+                }
+            }
+
+            // Sección "Productos Recomendados"
             item {
                 Column(modifier = Modifier.padding(horizontal = 16.dp)) {
                     Text(

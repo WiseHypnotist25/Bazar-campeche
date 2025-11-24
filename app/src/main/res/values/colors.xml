@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <!-- Paleta "Isla Digital" - Isla Bazar -->
+
+    <!-- Color Principal - Turquesa Caribe -->
+    <color name="turquesa_caribe">#26C6DA</color>
+    <color name="turquesa_caribe_light">#6FF9FF</color>
+    <color name="turquesa_caribe_dark">#0095A8</color>
+
+    <!-- Color de Acento/Acción - Coral Vibrante -->
+    <color name="coral_vibrante">#FF7043</color>
+    <color name="coral_vibrante_light">#FFA270</color>
+    <color name="coral_vibrante_dark">#C63F17</color>
+
+    <!-- Luz y Energía - Amarillo Solar -->
+    <color name="amarillo_solar">#FDD835</color>
+    <color name="amarillo_solar_light">#FFFF6B</color>
+    <color name="amarillo_solar_dark">#C6A700</color>
+
+    <!-- Texto y Estructura - Azul Petróleo -->
+    <color name="azul_petroleo">#006064</color>
+    <color name="azul_petroleo_light">#428E92</color>
+    <color name="azul_petroleo_dark">#00363A</color>
+
+    <!-- Fondos - Arena Suave -->
+    <color name="arena_suave">#FAFAFA</color>
+    <color name="arena_crema">#FFF3E0</color>
+
+    <!-- Colores básicos -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
